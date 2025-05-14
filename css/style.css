@@ -27,7 +27,7 @@ a {
 }
 
 a:focus {
-  color: #090981;
+  /* color: #090981; */
   text-decoration: none !important;
 }
 
@@ -2147,6 +2147,7 @@ hr.light-bg {
 
 .team .team-img img {
   border-radius: 5px;
+  width: 300px;
 }
 
 .team:hover .team-img {
@@ -2169,14 +2170,13 @@ hr.light-bg {
   z-index: 5;
 }
 
-.team .team-info {
-  padding: 20px 0px 0px;
-}
-
 .team .team-info .team-name {
   color: #090981;
-  font-size: 13px;
+  font-size: 22px;
   font-weight: 600;
+  margin-top: -10px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .team .team-info .team-name:hover {
@@ -2184,25 +2184,21 @@ hr.light-bg {
 }
 
 .team .team-info p {
-  font-size: 11px;
+  font-size: 15px;
   margin-bottom: 20px;
 }
 
 .team .team-info ul {
-  width: 350px;
-  margin-bottom: 0;
-  position: absolute;
-  bottom: -25px;
-  left: -48px;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 312px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
 .team .team-info ul li {
   margin: 0 12px;
-  display: inline-block;
 }
 
 .team .team-info ul li a {
@@ -7713,6 +7709,7 @@ ul.category-list li a:after {
 
 .category-grid-style-02 ul li a i {
   display: inherit;
+  font-size: 40px;
 }
 
 .category-box-style-02 .category-title {
